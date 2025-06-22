@@ -1,0 +1,12 @@
+file_format: "1"
+id: mriya
+name: Mriya
+type: shield
+url: https://github.com/shameoff/zmk-config
+requires: ["pro_micro"]
+siblings:
+  - mriya_left
+  - mriya_right
+features:
+  - keys
+  - studio

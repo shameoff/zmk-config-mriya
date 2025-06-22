@@ -1,0 +1,16 @@
+if SHIELD_MRIYA_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Mriya"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif # SHIELD_MRIYA_LEFT
+
+if SHIELD_MRIYA_LEFT || SHIELD_MRIYA_RIGHT
+
+config ZMK_SPLIT
+ 	default y
+
+endif # SHIELD_MRIYA_LEFT || SHIELD_MRIYA_RIGHT
